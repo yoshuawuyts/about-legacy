@@ -1,0 +1,22 @@
+{
+  "name": "header",
+  "version": "1.0.0",
+  "description": "header",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && NODE_ENV=test node test",
+    "test-cov": "standard && NODE_ENV=test istanbul cover test.js"
+  },
+  "repository": "yoshuawuyts/header",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}

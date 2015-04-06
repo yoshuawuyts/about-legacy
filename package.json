@@ -1,0 +1,22 @@
+{
+  "name": "about",
+  "version": "1.0.0",
+  "description": "about",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && NODE_ENV=test node test",
+    "test-cov": "standard && NODE_ENV=test istanbul cover test.js"
+  },
+  "repository": "yoshuawuyts/about",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "css-wipe": "^1.0.1"
+  },
+  "devDependencies": {},
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}

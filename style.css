@@ -1,0 +1,74 @@
+/**
+ * Fonts
+ */
+
+html, body, h1, h2, h3, h4, p, a {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+}
+
+body, p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+/**
+ * Header
+ */
+
+.header {
+  background-color: #F4F4F4;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 40vh;
+  max-width: 1020px;
+}
+
+.header-about {}
+.header-about > h1 {
+  font-size: 1.5rem;
+}
+.header-about > h2 {
+  font-size: 1rem;
+}
+
+/**
+ * Main
+ */
+
+main {
+  margin: auto;
+  max-width: 1020px;
+  margin-top: 36px;
+}
+
+/**
+ * Section: main-header
+ */
+.section-header {
+  padding: 5rem 0 5rem 0;
+}
+.section-header-title {
+  font-size: 1rem;
+}
+.section-header-text {
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
