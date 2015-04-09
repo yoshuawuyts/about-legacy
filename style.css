@@ -29,7 +29,7 @@ body, p {
  */
 
 .header {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 .header-wrap {
@@ -41,34 +41,52 @@ body, p {
   max-width: 1020px;
 }
 
+/**
+ * Header-about
+ */
 .header-about {}
 .header-about > h1 {
+  color: #000000;
   font-size: 1.5rem;
 }
 .header-about > h2 {
+  color: #000000;
   font-size: 1rem;
+}
+
+/**
+ * Header-contact
+ */
+.header-contact {
+  color: #000000;
 }
 
 /**
  * Main
  */
-
-main {
-  margin: auto;
+.main-break {
+  width: 100vw;
+  border-top: #f4f4f4 1px solid;
+}
+.section-base {
   max-width: 1020px;
-  margin-top: 36px;
+  margin: 36px auto;
+  padding: 5rem 0 5rem 0;
+}
+.section-title {
+  font-size: 1rem;
 }
 
 /**
  * Section: main-header
  */
-.section-header {
-  padding: 5rem 0 5rem 0;
-}
-.section-header-title {
-  font-size: 1rem;
-}
+.section-header {}
 .section-header-text {
   font-size: 3rem;
   line-height: 3.5rem;
 }
+
+/**
+ * Section: work
+ */
+.section-work {}

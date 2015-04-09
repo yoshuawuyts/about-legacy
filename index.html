@@ -3,28 +3,40 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <header class="header">
-    <div class="header-wrap">
-      <section class="header-about">
-        <h1>Yoshua Wuyts</h1>
-        <h2>Engineer</h2>
-      </section>
-      <section class="header-contact">
-        npm install -g yoshua
-      </section>
-    </div>
-  </header>
+  <header is="about-header" class="header"></header>
   <main>
-    <section class="section-header">
-      <h2 class="section-header-title">About</h2>
+    <section class="section-base section-header">
+      <h2 class="section-title">About</h2>
       <h3 class="section-header-text">
-        Making the web intuitive and easy to navigate, one module
+        Making the web intuitive and reusable, one module
         at a time.
       </h3>
     </section>
-    <section class="section-work">
-      <img is="work-tile" alt="some text" src=""></img>
+
+    <hr class="main-break">
+    <section class="section-base section-work">
+      <h2 class="section-title"></h2>
+      <div>
+        <h2 class="section-title">Projects</h2>
+        <img is="section-work-tile" alt="some text" src="https://placekitten.com/g/100/300">
+      </div>
+    </section>
+
+    <hr class="main-break">
+    <section class="section-base section-oss">
+      <h2 class="section-title"></h2>
+      <div>
+        <h2 class="section-title">Open Source</h2>
+        <div is="section-oss-tile"></div>
+        <h2>
+          <a href="https://github.com/yoshuawuyts/vmd">
+            vmd
+          </a>
+        </h2>
+        <p>Preview markdown files from the command line</p>
+      </div>
     </section>
   </main>
   <footer></footer>
+  <script src="/index.js"></script>
 </body>

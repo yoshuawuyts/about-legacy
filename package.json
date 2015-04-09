@@ -4,6 +4,8 @@
   "description": "about",
   "main": "index.js",
   "scripts": {
+    "dev": "linklocal link -r && linklocal list -r | bulk -c 'npm install --production'",
+    "start": "open http://localhost:1337 && wzrd index.js -p 1337 -- -t babelify",
     "test": "standard && NODE_ENV=test node test",
     "test-cov": "standard && NODE_ENV=test istanbul cover test.js"
   },
@@ -11,9 +13,16 @@
   "keywords": [],
   "license": "MIT",
   "dependencies": {
-    "css-wipe": "^1.0.1"
+    "@about/header": "file:about-header",
+    "css-wipe": "^1.0.1",
+    "custom-element": "^2.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babelify": "^6.0.2",
+    "bulk": "^2.0.0-alpha-0",
+    "linklocal": "^2.5.1",
+    "wzrd": "^1.2.1"
+  },
   "files": [
     "LICENSE",
     "index.js",

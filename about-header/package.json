@@ -1,7 +1,7 @@
 {
-  "name": "header",
+  "name": "@about/header",
   "version": "1.0.0",
-  "description": "header",
+  "description": "@about/header",
   "main": "index.js",
   "scripts": {
     "test": "standard && NODE_ENV=test node test",
